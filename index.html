@@ -945,7 +945,7 @@ url:e,reason:"blocked_domain_not_allowlisted"},b.parentOrigin);throw new DOMExce
           <div class="text-[10.5px] font-semibold text-teal-800 leading-tight">Đơn nguyên Di truyền &amp; Sinh học phân tử</div>
           <div class="text-[10.5px] text-slate-600 mt-0.5 flex items-center gap-1">
             <span class="inline-block w-1.5 h-1.5 rounded-full bg-sky-600"></span>
-            <span>Phụ trách: <strong class="text-slate-900">ThS. Trần Tuấn Anh</strong></span>
+            <span>Admin: <strong class="text-slate-900">ThS. Trần Tuấn Anh</strong></span>
           </div>
         </div>
       </div>
@@ -1949,7 +1949,7 @@ url:e,reason:"blocked_domain_not_allowlisted"},b.parentOrigin);throw new DOMExce
  * ============================================================================
  * HỆ THỐNG QUẢN LÝ & PHÂN TÍCH PHẢ HỆ DI TRUYỀN LÂM SÀNG (NSGC STANDARD)
  * Đơn vị: Bệnh viện Nhi Hà Nội — Đơn nguyên Di truyền và Sinh học phân tử
- * Phụ trách chuyên môn: ThS. Trần Tuấn Anh
+ * Admin: ThS. Trần Tuấn Anh
  * Kiến trúc: Enterprise Headless REST API + License Expiration + Row-Level Security (RLS)
  * Lưu trữ: Google Sheets (Pedigrees + Allowed_Users 10 cột) + Google Drive (SVG/PNG)
  * ============================================================================
@@ -6692,7 +6692,7 @@ function searchPedigreeRecords(query, callerEmail) {
 
       // Line 1: Hospital & Unit Branding + Right-aligned Personal Identity
       headerSvg += `<text x="${textStartX}" y="${topY + 26}" font-family="Arial, 'Segoe UI', Roboto, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#0369a1">BỆNH VIỆN NHI HÀ NỘI — ĐƠN NGUYÊN DI TRUYỀN VÀ SINH HỌC PHÂN TỬ</text>\n  `;
-      headerSvg += `<text x="${minX + width - 28}" y="${topY + 26}" text-anchor="end" font-family="Arial, 'Segoe UI', Roboto, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#0f766e">Phụ trách chuyên môn: ThS. Trần Tuấn Anh</text>\n  `;
+      headerSvg += `<text x="${minX + width - 28}" y="${topY + 26}" text-anchor="end" font-family="Arial, 'Segoe UI', Roboto, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#0f766e">Admin: ThS. Trần Tuấn Anh</text>\n  `;
 
       let cursorY = topY + 47;
       titleLines.forEach(line => {
